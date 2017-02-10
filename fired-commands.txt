@@ -1,0 +1,22 @@
+db.demo.insert({name:"name12",age:13})
+db.demo.insert({name:"name13",age:13})
+db.demo.insert({name:"name14",age:13})
+db.demo.insert({name:"name15",age:13})
+db.demo.insert({name:"name16",age:13})
+db.demo.insert({name:"name17",age:13})
+db.demo.insert({name:"name18",age:13})
+db.demo.insert({name:"name19",age:13})
+db.demo.insert({name:"name20",age:13})
+db.demo.insert({name:"name21",age:13})
+db.demo.insert({name:"name32",age:13})
+db.demo.insert({name:"name1",age:12})
+db.demo.insert({name:"name2",age:12})
+db.demo.insert({name:"name3",age:12})
+db.demo.insert({name:"name4",age:12})
+db.demo.insert({name:"name5",age:12})
+db.demo.insert({name:"name55",age:11})
+db.demo.insert({name:"name57",age:11})
+db.demo.insert({name:"name58",age:11})
+
+
+select count(*) form xzy where x="dfsfs" group by name;

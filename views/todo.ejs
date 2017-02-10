@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>todo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+    <!--<style>
+    body{
+      position: absolute;
+      left: 50%;
+    }
+    </style>
+  -->
+  </head>
+  <body>
+    <h1>my todo list</h1>
+    <ul>
+      <%  todolist.forEach(function(val,i){ %>
+        <li><a href="/todo/delete/<%=i%>  ">to remove click</a> <%=val%></li>
+    <% }); %>
+    </ul>
+    <form  action="todo/add" method="post">
+      <div>
+        <input type="text" name="something_todo" id ="something_todo" placeholder="new-todo"/>
+        <input type="submit" class="btn-primary"/>
+      </div>
+    </form>
+  </body>
+</html>
