@@ -17,7 +17,7 @@ app.use(session({secret:"todo"}))
 
 
 .get('/todo',function(req,resp){
-  console.log(path.join(__dirname,'/public'));
+  //console.log(path.join(__dirname,'/public'));
   resp.render('todo.ejs',{todolist:req.session.todolist});
 
 })

@@ -1,4 +1,13 @@
-body{
-  position: absolute;
-  left: 50%;
+.btn{
+  position: relative;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.form-content{
+  margin: 0 auto;
+}
+
+.main-content{
+  padding:100px;
 }
